@@ -35,11 +35,11 @@ const Layout = ({ isHomePage, children }) => {
       <main>{children}</main>
 
       <footer>
-        © {new Date().getFullYear()}, Built with
+        Copyright © {new Date().getFullYear()} - Eliem Ross, Built by
         {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <a href="https://www.jasonross.xyz">Jason Ross</a>
         {` `}
-        And <a href="https://wordpress.org/">WordPress</a>
+        And <a href="https://www.syntax.dev">Syntax Inc.</a>
       </footer>
     </div>
   )

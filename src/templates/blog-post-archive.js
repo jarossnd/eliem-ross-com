@@ -5,6 +5,7 @@ import parse from "html-react-parser"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Eliem from "../images/eliem-ross-profile.png";
 
 const BlogIndex = ({
   data,
@@ -16,10 +17,8 @@ const BlogIndex = ({
     return (
       <Layout isHomePage>
         <Seo title="All posts" />
-        <Bio />
         <p>
-          No blog posts found. Add posts to your WordPress site and they'll
-          appear here!
+          No blog posts found.
         </p>
       </Layout>
     )
@@ -29,7 +28,11 @@ const BlogIndex = ({
     <Layout isHomePage>
       <Seo title="All posts" />
 
-      <Bio />
+      <img
+          alt="Eliem Ross"
+          className="bio-avatar"
+          src={Eliem}
+        />
 
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
