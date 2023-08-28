@@ -39,7 +39,7 @@ const Layout = ({ isHomePage, children }) => {
         {` `}
         <a href="https://www.jasonross.xyz">Jason Ross</a>
         {` `}
-        And <a href="https://www.syntax.dev">Syntax Inc.</a>
+        and <a href="https://www.syntax.dev">Syntax Inc.</a>
       </footer>
     </div>
   )
